@@ -1,0 +1,30 @@
+.cricbazz_header{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #009270;
+    color: white;
+}
+.cricbazz_header>div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.cricbazz_headerOptions>button{
+    display: block;
+    padding: 10px;
+    margin-top: 16px;
+    border-radius: 30%;
+    border-width: 0;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.cricbazz_headerSearchIcon>img{
+    color: white;
+  
+    width: 40px;
+    margin-top: 12px;
+}
