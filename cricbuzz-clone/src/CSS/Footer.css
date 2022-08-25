@@ -1,0 +1,56 @@
+
+.Footer{
+    background-color:#4a4a4a;
+    color: white;
+    height: auto;
+    /* margin-left: 100px; */
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+}
+h2{
+    font-size: 20px;
+}
+.Para_line>div>P{
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    width: 100%;
+    font-size: 13px;
+    margin-top: 1rem;
+    margin-right: 20rem;
+    /* text-align: center; */
+}
+Company_details,.FOLLOW_US_ON,.MOBILE_SITE{
+    /* width: 100%; */
+    /* margin-left: 10px; */
+}
+
+.Footer_logo_Image>img{
+    height: 35px;
+    margin-top: 20px;
+}
+
+.Footer>div{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    background-color:#4a4a4a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.Footer>div>div>h2,
+.Footer>div>div>h4{
+    text-align: left;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+  
+}
+.Footer>div>div>h2{
+    font-weight: 700;
+    font-size: 16px;
+}
+.Footer>div>div>h4{
+    font-weight: 400;
+    font-size: 14px;
+}

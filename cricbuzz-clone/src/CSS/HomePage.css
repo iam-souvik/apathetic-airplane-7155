@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    background-color: #e3e6e3;
+}
+
+#main{
+       /* border: 1px solid red; */
+    margin-top: 6px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: #e3e6e3;
+}
+
+#main>div{
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+
+.latest_news{
+    padding: 10px;
+    width: 18%;
+    text-align: left;
+}
+
+.latest_news>h2:first-child{
+    color: teal;
+}
+
+.latest_news>div>p:first-child{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.latest_news>div>p:first-child:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.latest_news>div>p:last-child{
+    margin-top: -15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.middle_div{
+    width: 50%;
+}
+
+.last_div{
+    width: 31%;
+}
+#latest_photo_div{
+    /* background-color: gray; */
+    
+    
+}
+#latest_photo_div>div{
+    /* background-color: white; */
+}
+.latest_photo{
+    color: teal;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+   
+   
+}
+.paragrap{
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    /* background-color: #ffffff; */
+
+}
+.paragrap2{
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
+    /* background-color: #ffffff; */
+}
+#Secudule_Headline{
+    color: teal;
+    font-size: 16px;
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+
+}
+.first_head{
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+
+
+}
+.first_para{
+    font-family: helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    color: gray;
+
+}
