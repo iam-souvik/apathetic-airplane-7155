@@ -3,14 +3,13 @@
 import { getMatchInfo } from "../API/Api"
 import Crickbuzz from "./crickbuzz"
 
-    export default function getMatches(){
+    export default function GetMatches(){
         const [ matches,SetMatches]=useState([])
 
         useEffect(()=>{
             getMatchInfo()
-            .then((data)=>{
-                SetMatches(data.matches)
-                console.log(data)
+            .then((res)=>{
+                console.log(res)
             })
             .catch((err)=>
             console.log(err))
@@ -18,7 +17,20 @@ import Crickbuzz from "./crickbuzz"
 
         return(
             <>
-            <Crickbuzz/>
+
+               <div>
+
+                {/* {res.daatmap((el)=>
+
+                  <h1 key={el.id}>{el.name}</h1>
+                )} */}
+
+                   
+
+               </div>
+
+               
+
             </>
         )
     }

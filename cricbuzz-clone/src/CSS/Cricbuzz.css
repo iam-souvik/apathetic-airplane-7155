@@ -1,30 +1,79 @@
 .cricbazz_header{
-    /* border: 1px solid red; */
-    width: 100%;
+    border: 1px solid red;
+    width: 80%;
+    height: 48px;
     display: flex;
+    margin: auto;
     justify-content: space-evenly;
     background-color: #009270;
     color: white;
 }
+.cricbazz_headerIamge{
+    width: 5px;
+    margin-right: 10px;
+}
+
+.cricbazz_headerIamge>img{
+    width: 100px;
+}
 .cricbazz_header>div{
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 10px;
 }
+
+.cricbazz_headerOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cricbazz_headerOptions>button{
+    border: 3px solid red;
     display: block;
-    padding: 10px;
-    margin-top: 16px;
-    border-radius: 30%;
+    padding: 10px 15px;
+    border-radius: 50% 0%;
     border-width: 0;
     background-color: white;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(22, 22, 22, 0.794);
+    cursor: pointer;
 }
+
+
+
+.cricbazz_headerOptions h4{
+    color: white;
+    font-weight: 400;
+    padding: 0px 5px;
+}
+
+.cricbazz_headerOptions>a{
+    text-decoration: none;
+}
+
+.cricbazz_headerOptions>div:nth-child(1):hover,
+.cricbazz_headerOptions>div:nth-child(2):hover,
+.cricbazz_headerOptions>div:nth-child(3):hover,
+.cricbazz_headerOptions>div:nth-child(4):hover,
+.cricbazz_headerOptions>div:nth-child(5):hover,
+.cricbazz_headerOptions>div:nth-child(6):hover,
+.cricbazz_headerOptions>div:nth-child(7):hover,
+.cricbazz_headerOptions>div:nth-child(8):hover,
+.cricbazz_headerOptions>div:nth-child(9):hover{
+    background-color: rgba(0, 0, 0, 0.115);
+}
+
 .cricbazz_headerSearchIcon>img{
     color: white;
-  
-    width: 40px;
-    margin-top: 12px;
+    cursor: pointer;
+    width: 25px;
+    margin-top: 5px;
+}
+.cricbazz_ProfileIcon>img{
+    width: 35px;
+    cursor: pointer;
 }
