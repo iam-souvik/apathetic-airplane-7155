@@ -3,6 +3,7 @@ import { Navigate, NavLink } from "react-router-dom"
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import { checkData } from "./utilis";
+import "../CSS/Login.css"
 
 const intialFormData = {
     email: "",

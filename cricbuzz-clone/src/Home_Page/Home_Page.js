@@ -202,7 +202,7 @@ export default function Homepage() {
             </div>
 
             <div className="last_div">
-                <h3>FEATURED VIDEOS</h3>
+                <h3 className="video_headline">FEATURED VIDEOS</h3>
 
                 <div>
                     <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241294/form-guide-india-asia-cup-p.jpg" alt="error" />
@@ -264,7 +264,7 @@ export default function Homepage() {
 
 
                 <div>
-                    <h2>SPECIAL</h2>
+                    <h2 className="video_headline">SPECIAL</h2>
 
 
                     <div>
