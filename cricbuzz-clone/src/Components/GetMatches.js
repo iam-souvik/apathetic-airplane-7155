@@ -1,36 +1,88 @@
 
-    import  React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { getMatchInfo } from "../API/Api"
-import Crickbuzz from "./crickbuzz"
+import "../CSS/Cricbuzz.css"
 
-    export default function GetMatches(){
-        const [ matches,SetMatches]=useState([])
+import { Data_map } from "./data_map"
 
-        useEffect(()=>{
-            getMatchInfo()
-            .then((res)=>{
+
+export default function GetMatches() {
+    const [matches, SetMatches] = useState([])
+
+    useEffect(() => {
+        getMatchInfo()
+            .then((res) => {
                 console.log(res)
+                SetMatches(res.data)
             })
-            .catch((err)=>
-            console.log(err))
-        },[])
+            .catch((err) =>
+                console.log(err))
+    }, [])
 
-        return(
-            <>
+    const data2 = [
+        {
+            title: "MATCHES",
+            flag: true
+        },
+         { title: "RSA vs ENG Stumps",
+         flag:true,
+         },
+         {
+            title:"RSA vs ENG Stumps",
+            flag:true,
+         },
 
-               <div>
+        {
+           title:"RSA vs ENG Stumps",
+           flag:true,
+        },
+        {
+            title:"RSA vs ENG Stumps",
+            flag:true,
+         },
 
-                {/* {res.daatmap((el)=>
+        {
+           title:"RSA vs ENG Stumps",
+           flag:true,
+        },
+        {
+            title:"All",
+            flag:true,
+         },
 
-                  <h1 key={el.id}>{el.name}</h1>
-                )} */}
+        ]
+    return (
+        <>
 
-                   
+            <div id="main_data_div">
 
-               </div>
+
+                {data2.map((res)=>
+               <Data_map   title={res.title}  flag={res.flag} />
+                
+               )}
+
 
                
+               
 
-            </>
-        )
-    }
+
+
+
+
+                {/* {matches.map((souvik) =>
+
+                    <h1>{souvik.name}</h1>
+
+                )} */}
+
+
+
+
+            </div>
+
+
+
+        </>
+    )
+}
