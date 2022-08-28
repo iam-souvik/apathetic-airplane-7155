@@ -214,7 +214,7 @@ export default function Homepage() {
 
                 <div>
                     <img src="" alt="" />
-                    <h3>Form Guide: India | Asia Cup preview
+                    <h3>Form Guide: India | Asia Cup previewś
                     </h3>
                     <p> 12h ago</p>
 
@@ -222,7 +222,7 @@ export default function Homepage() {
                 </div>
 
                 <div>
-                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
+                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241518/india-v-pakistan-asia-cup-ma.jpg" alt="" />
                     <h3>India vs Pakistan | Top 5 Moments in Asia Cup
                         4h ago</h3>
                     <p>4h ago</p>
@@ -230,23 +230,25 @@ export default function Homepage() {
 
                 </div>
                 <div>
-                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
-                    <h3>India vs Pakistan | Top 5 Moments in Asia Cup
-                        4h ago</h3>
+                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241470/virat-kohlis-revelation-will.jpg" alt="" />
+                    <h3>Virat Kohli's revelation will pave way for future generations too: Ajay Jadeja </h3>
+                    <p>19h ago</p>
+
+
+
+
+                </div>
+                <div>
+                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241270/asia-cup-indias-top-5-moment.jpg" alt="" />
+                    <h3>Asia Cup: India's top-5 moments ft. Sachin 100th hundred, Kohli's 183
+                        Aug 24 2022
+                    </h3>
                     <p>4h ago</p>
 
 
                 </div>
                 <div>
-                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
-                    <h3>India vs Pakistan | Top 5 Moments in Asia Cup
-                        4h ago</h3>
-                    <p>4h ago</p>
-
-
-                </div>
-                <div>
-                    <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
+                    <img src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c241503/van-der-dussen-sustained-a-fin.jpg" alt="" />
                     <h3>India vs Pakistan | Top 5 Moments in Asia Cup
                         4h ago</h3>
                     <p>4h ago</p>
@@ -270,7 +272,7 @@ export default function Homepage() {
                     <div>
                         <img src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c241323/hong-kong-have-progressed-to-t.jpg" alt="" />
                         <h3>August 2022 - News Digest</h3>
-                           
+
                         <p>News byte that you may have otherwise missed</p>
 
 
@@ -278,30 +280,31 @@ export default function Homepage() {
                     <div>
                         <img src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c239982/the-defending-champions-have-r.jpg" alt="" />
                         <h3>August 2022 - News Digest</h3>
-                           
-                           <p>News byte that you may have otherwise missed</p>
 
-
-                    </div>
-                    <div>
-                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
-                        <h3>August 2022 - News Digest</h3>
-                           
                         <p>News byte that you may have otherwise missed</p>
 
 
                     </div>
                     <div>
-                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
-                        <h3>August 2022 - News Digest</h3>
-                           
-                        <p>News byte that you may have otherwise missed</p>
+                        <img src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236159/joe-roots-batting-average-had.jpg" alt="" />
+                        <h3>The Hundred 2022: How the teams shape up</h3>
+
+
+                        <p>Ahead of the second edition of The Hundred, we look at the team composition, players' form, tactics and more</p>
+
 
                     </div>
                     <div>
                         <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c241328/india-vs-pakistan-top-5-mome.jpg" alt="" />
                         <h3>August 2022 - News Digest</h3>
-                           
+
+                        <p>News byte that you may have otherwise missed</p>
+
+                    </div>
+                    <div>
+                        <img src="https://www.cricbuzz.com/a/img/v1/300x170/i1/c236537/for-me-its-about-just-trying.jpg" alt="" />
+                        <h3>August 2022 - News Digest</h3>
+
                         <p>News byte that you may have otherwise missed</p>
 
 

@@ -4,6 +4,7 @@ import React from "react"
 import { Link } from "react-router-dom";
 import "../CSS/Cricbuzz.css"
 import LoginForm from "../Login&SignUp/Login";
+import "../CSS/Lda_Match.css"
 
 function Crickbuzz() {
     return (
@@ -18,7 +19,7 @@ function Crickbuzz() {
                 <div className="cricbazz_headerOptions">
 
                     <div className="cricbazz_headerOptions">
-                        <Link to="/">
+                        <Link to="/LDA_Match">
                             <h4>Live Score</h4>
                         </Link>
                     </div>
@@ -34,34 +35,102 @@ function Crickbuzz() {
 
                     </div>
 
-                    <div className="cricbazz_headerOptions">
+                    <div id="News" className="cricbazz_headerOptions">
                         <Link to="/">
-                            <h4>News</h4>
-                            {/* <ArrowDropDownIcon/> */}
+                            <h4>News
+
+                                <div id="News_hover">
+
+                                    <a>All Stories</a>
+                                    <a>Crickbuzz Plus</a>
+                                    <a>Latest News</a>
+                                    <a>Topics</a>
+                                    <a>Spot Light</a>
+                                    <a>Opinions</a>
+                                    <a>Specials</a>
+                                    <a>Interview</a>
+                                    <a>Live Blogs</a>
+
+                                </div>
+                            </h4>
+
                         </Link>
                     </div>
-                    <div className="cricbazz_headerOptions">
+                    <div id="Series" className="cricbazz_headerOptions">
                         <Link to="/">
                             <h4>Series </h4>
-                            {/* <ArrowDropDownIcon/> */}
+                            <div id="Series_hover">
+                                <a>Asia Cup 2022</a>
+                                <a>South Africa tour of England, 2022</a>
+                                <a>zimbabwe tour of Australia, 2022</a>
+                                <a>New Zealand A tour of India, 2022</a>
+                                <a>Caribbean Premier League 2022</a>
+                                <a>The Hundred Mens Competition 2022</a>
+                                <a>Royal London One-day Cup 2022</a>
+                                <a>The Hundred Womens Competition 2022</a>
+                            </div>
                         </Link>
                     </div>
-                    <div className="cricbazz_headerOptions">
+                    <div className="cricbazz_headerOptions" id="Teams">
                         <Link to="/">
                             <h4>Teams</h4>
-                            {/* <ArrowDropDownIcon/> */}
+                            <div id="Teams_hover">
+                                <h2>TEST TEAMS</h2>
+                                <div>
+                                    <div>
+                                        <a>India</a>
+                                        <a>Afghanistan</a>
+                                        <a>Ireland</a>
+                                        <a>Pakistan</a>
+                                        <a>Australia</a>
+                                        <a>Sri Lanka</a>
+                                        <a>Bangladesh</a>
+                                        <a>England</a>
+                                        <a>West Indies</a>
+                                        <a>South Africa</a>
+                                        <a>Zimbabwe</a>
+                                        <a>New Zealand</a>
+                                    </div>
+
+                                    <div>
+                                        <a>India</a>
+                                        <a>Afghanistan</a>
+                                        <a>Ireland</a>
+                                        <a>Pakistan</a>
+                                        <a>Australia</a>
+                                        <a>Sri Lanka</a>
+                                        <a>Bangladesh</a>
+                                        <a>England</a>
+                                        <a>West Indies</a>
+                                        <a>South Africa</a>
+                                        <a>Zimbabwe</a>
+                                        <a>New Zealand</a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </Link>
                     </div>
-                    <div className="cricbazz_headerOptions">
+                    <div id="Videos" className="cricbazz_headerOptions">
                         <Link to="/">
                             <h4>Videos</h4>
-                            {/* <ArrowDropDownIcon/> */}
+                            <div id="Videos_hover" >
+                                <a>All Videos</a>
+                                <a>Categories</a>
+                                <a>PlayList</a>
+
+                            </div>
+
                         </Link>
                     </div>
-                    <div className="cricbazz_headerOptions">
+                    <div id="Ranking" className="cricbazz_headerOptions">
                         <Link to="/">
                             <h4>Ranking</h4>
-                            {/* <ArrowDropDownIcon/> */}
+
+                            <div id="Ranking_hover">
+                                <a>Icc Ranking - Man</a>
+                                <a>Icc Ranking -Woman</a>
+                            </div>
                         </Link>
                     </div>
                     <div className="cricbazz_headerOptions">
@@ -89,15 +158,17 @@ function Crickbuzz() {
 
                     </div>
                     <div className="cricbazz_ProfileIcon">
-                        <img onClick={{LoginForm}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYvq7zWeYgf2yDxPRExBk-l4hhCzk6FyhWA&usqp=CAU" alt="error" />
+                       <Link to="/login">
+                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYvq7zWeYgf2yDxPRExBk-l4hhCzk6FyhWA&usqp=CAU" alt="error" />
+                       </Link>
                     </div>
 
-                    <div className="cricbazz_Login">
+                    {/* <div className="cricbazz_Login">
                         <Link to="/login">
-                            <h4 >Login</h4>
-                            {/* <ArrowDropDownIcon/> */}
+                            <h4 >Login </h4>
+                           
                         </Link>
-                    </div>
+                    </div> */}
 
 
                 </div>
