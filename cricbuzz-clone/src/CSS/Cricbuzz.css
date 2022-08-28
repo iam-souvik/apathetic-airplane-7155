@@ -1,4 +1,4 @@
-.cricbazz_header{
+.cricbazz_header {
     /* border: 1px solid red; */
     width: 80%;
     height: 48px;
@@ -8,50 +8,54 @@
     background-color: #009270;
     color: white;
 }
-.cricbazz_headerIamge{
+
+.cricbazz_headerIamge {
     width: 5px;
     margin-right: 10px;
 }
 
-.cricbazz_headerIamge>img{
+.cricbazz_headerIamge>img {
     width: 100px;
 }
-.cricbazz_header>div{
+
+.cricbazz_header>div {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
 }
 
-.cricbazz_headerOptions{
+.cricbazz_headerOptions {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: inherit;
+    padding: 0px 5px;
 }
 
-.cricbazz_headerOptions>button{
-    /* border: 3px solid red; */
-    display: block;
-    padding: 10px 15px;
-    border-radius: 50% 0%;
-    border-width: 0;
-    background-color: white;
-    color: black;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    font-size: 16px;
-    font-weight: 400px;
-    color: rgba(22, 22, 22, 0.794);
+.cricbazz_headerOptions>button {
     cursor: pointer;
+    background-color: #fff;
+    font-weight: 400px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
 
 
-.cricbazz_headerOptions h4{
+.cricbazz_headerOptions h4 {
     color: white;
     font-weight: 400;
     padding: 0px 5px;
 }
 
-.cricbazz_headerOptions>a{
+.cricbazz_headerOptions>a {
     text-decoration: none;
 }
 
@@ -63,37 +67,252 @@
 .cricbazz_headerOptions>div:nth-child(6):hover,
 .cricbazz_headerOptions>div:nth-child(7):hover,
 .cricbazz_headerOptions>div:nth-child(8):hover,
-.cricbazz_headerOptions>div:nth-child(9):hover{
+.cricbazz_headerOptions>div:nth-child(9):hover {
     background-color: rgba(0, 0, 0, 0.115);
 }
 
-.cricbazz_headerSearchIcon>img{
+.cricbazz_headerSearchIcon>img {
     color: white;
     cursor: pointer;
     width: 25px;
     margin-top: 5px;
 }
-.cricbazz_ProfileIcon>img{
+
+.cricbazz_ProfileIcon>a>img {
     width: 30px;
     cursor: pointer;
     border-radius: 50%;
 }
 
+.cricbazz_ProfileIcon,
+.cricbazz_headerSearchIcon {
+    margin-left: 30px;
+}
 
 
-                            /* **************************Data_Map************************* */
 
-    #main_data_div{
-        /* border: 1px solid red; */
-        width: 80%;
-        display: flex;
-        gap: 15px;
-        font-size: 20px;
-        height: 65px;
-        text-align: center;
-        margin: auto;
-        align-items: center;
-        background-color: rgba(38, 36, 36, 0.823);
-        color: white;
-    }
-    
+/* **************************Data_Map************************* */
+
+#main_data_div {
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    height: 42px;
+
+    margin: auto;
+    align-items: center;
+
+    background-color: #4a4a4a;
+    color: white;
+}
+
+#main_data_div>div:hover {
+    background-color: #444444e1;
+}
+
+#main_data_div>div {
+
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+#main_data_div>div:first-child {
+
+    background-color: #333333;
+}
+
+#main_data_div>div:first-child:hover {
+    background-color: #434343;
+}
+
+#main_data_div>div:last-child {
+    margin-left: 150px;
+}
+
+#main_data_div>div:nth-child(3)>a {
+    /* border: 1px solid red; */
+    color: white;
+    text-decoration: none;
+}
+
+#main_data_div>div:nth-child(4)>a {
+    /* border: 1px solid red; */
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* *******************Hover_Effect******************* */
+#News_hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    line-height: 25px;
+    width: 160px;
+    height: 245px;
+    padding: 20px;
+    top: 44px;
+    left: 504px;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#News_hover>a {
+    display: block;
+    cursor: pointer;
+}
+
+#News_hover>a:hover {
+    text-decoration: underline;
+}
+
+#News:hover #News_hover {
+    display: inline-block;
+}
+
+/* ***Series*** */
+
+
+#Series_hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    line-height: 30px;
+    width: 340px;
+    height: 260px;
+    padding: 20px;
+    top: 44px;
+    left: 540px;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Series_hover>a {
+    display: block;
+    cursor: pointer;
+}
+
+#Series_hover>a:hover {
+    text-decoration: underline;
+}
+
+#Series:hover #Series_hover {
+    display: inline-block;
+}
+
+/* ****TEAMS**** */
+
+
+#Teams_hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    line-height: 30px;
+    width: 480px;
+    height: 380px;
+    padding: 20px;
+    top: 44px;
+    left: 640px;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Teams_hover>div:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: inherit;
+    background-color: #fff;
+}
+
+#Teams_hover>div:last-child>div {
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    height: inherit;
+    width: 48%;
+}
+
+#Teams_hover>div:last-child>div>a {
+    display: block;
+    cursor: pointer;
+}
+
+#Teams_hover>div:last-child>div>a:hover {
+    text-decoration: underline;
+}
+
+#Teams:hover #Teams_hover {
+    display: inline-block;
+}
+
+
+/* *************Videos***************** */
+
+#Videos_hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    line-height: 25px;
+    width: 160px;
+    height: 140px;
+    padding: 20px;
+    top: 44px;
+    left: 700px;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Videos_hover>a {
+    display: block;
+    cursor: pointer;
+}
+
+#Videos_hover>a:hover {
+    text-decoration: underline;
+}
+
+#Videos:hover #Videos_hover {
+    display: inline-block;
+}
+
+/* **********Ranking******** */
+#Ranking_hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    line-height: 25px;
+    width: 160px;
+    height: 140px;
+    padding: 20px;
+    top: 48px;
+    left: 750px;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Ranking_hover>a {
+    display: block;
+    cursor: pointer;
+}
+
+#Ranking_hover>a:hover {
+    text-decoration: underliRanking
+}
+
+#Ranking:hover #Ranking_hover {
+    display: inline-block;
+}
